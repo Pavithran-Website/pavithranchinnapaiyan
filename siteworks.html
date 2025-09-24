@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body class="fade-in">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="hpcl.html">HOME</a></li>
+        <li><a href="index45.html">QUALIFICATION</a></li>
+        <li><a href="siteworks.html">PROFILE</a></li>
+        <li><a href="hpcl.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="container">
+    <h1 style="text-align: center;">PROFILE</h1>
+    <div class="content fade-in">
+
+      <h3 style="text-decoration: underline;">Role:Jr Electrical Engineer | Testing & Commissioning
+        <a href="https://mcore.in/" style="color: rgba(18, 31, 71, 0.534);">| MCore Technologies</a>
+      </h3>
+      </p>
+      <h4>July,2025 - Present</h4>
+
+      <p style="text-align: justify;">
+        As a Junior Electrical Engineer specializing in Testing and Commissioning, I have been actively involved in the
+        execution and validation of LV and MV electrical systems, including switchgear, transformers, protection relays,
+        and control panels. My role includes performing critical tests such as insulation resistance, CT/PT ratio and
+        polarity checks, breaker timing analysis, and functional relay logic verification to ensure system integrity and
+        operational safety. I collaborate closely with senior engineers, consultants, and site managers to maintain
+        strict compliance with industry standards, safety protocols, and project specifications.
+
+        Additionally, I am responsible for preparing detailed test reports and documentation in accordance with client
+        and regulatory requirements. My experience also includes coordination with OEM vendors during Factory Acceptance
+        Tests (FAT) and Site Acceptance Tests (SAT), as well as troubleshooting and resolving issues that arise during
+        commissioning activities. With hands-on knowledge of testing instruments like Omicron and Megger, and a working
+        understanding of IEC and IS standards, I contribute to successful project handovers with a focus on reliability,
+        safety, and performance.
+        As part of the electrical meter installation and networking team, I am responsible for the physical
+        installation, configuration, and network integration of smart meters. My work involves ensuring seamless
+        communication between the meters and the central network, as well as troubleshooting connectivity issues.
+      </p>
+    </div>
+    <div class="key">
+      Key Responsibilities: <br>
+      <hr>
+      <ul>
+        <li>Installation and testing of electrical meters, ensuring compliance with safety standards and
+          regulations.</li>
+        <li>Configuration of communication modules for networking, including PLC (Power-Line Communication) and
+          other
+          wireless
+          protocols.</li>
+        <li>Troubleshooting network connectivity issues and optimizing data transmission for real-time monitoring.
+        </li>
+        <li>Collaborating with team members to ensure efficient and timely project completion. </li>
+        <li>Assist in troubleshooting electrical issues and support corrective measures during pre-commissioning and
+          commissioning stages.</li>
+        <li>Conduct testing and commissioning of LV and MV electrical systems including switchgear, transformers,
+          circuit breakers, relays, and control panels.</li>
+        <li>Collaborate with project engineers, consultants, and contractors to meet project deadlines and ensure smooth
+          handover.</li>
+      </ul>
+    </div>
+  </section>
+  <style>
+    body {
+      background-image: url(ai.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      color: rgba(18, 31, 71, 0.534);
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+
+    }
+
+    header {
+      color: #fff;
+      width: 100%;
+      padding-right: 20px;
+      text-align: center;
+      border-radius: 15px;
+      text-decoration: underline;
+    }
+
+    header nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: right;
+      gap: 15px;
+    }
+
+    header nav ul li {
+      cursor: pointer;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    header nav ul li a:hover,
+    header nav ul li a:focus {
+      color: #ff5722;
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 10px;
+    }
+
+    .head {
+      padding-top: 5px;
+    }
+
+    .key {
+      background-color: #fff;
+      border-radius: 15px;
+      margin-top: 15px;
+      text-align: justify;
+      padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        font-size: 14px;
+      }
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease-out;
+    }
+
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #031827;
+      border-radius: 0;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: #ecf0f1;
+    }
+
+    body {
+      overflow-x: hidden;
+      font-family: 'Lora', serif;
+
+    }
+  </style>
+  <script>
+    const elements = document.querySelectorAll('.fade-in');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    });
+
+    elements.forEach(el => observer.observe(el));
+
+  </script>
+
+</body>
+
+</html>
