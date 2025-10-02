@@ -63,6 +63,7 @@ body {
 
     background: url(558222-sunset-electric-night-nature-wallpaper.jpg);
     background: cover;
+    background-attachment: fixed;
 }
 
 
@@ -421,5 +422,6 @@ img {
     .clients-row img {
         margin-bottom: 40px;
     }
+
 
 }
