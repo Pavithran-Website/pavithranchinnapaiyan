@@ -60,10 +60,9 @@ html {
 }
 
 body {
+
     background: url(558222-sunset-electric-night-nature-wallpaper.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: cover;
     background-attachment: fixed;
 }
 
@@ -424,6 +423,4 @@ img {
         margin-bottom: 40px;
     }
 
-
 }
-
