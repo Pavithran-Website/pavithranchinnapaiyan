@@ -16,6 +16,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #fff;
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -216,4 +217,5 @@ li {
 
 ::-webkit-scrollbar-track {
     background-color: #ecf0f1;
+
 }
